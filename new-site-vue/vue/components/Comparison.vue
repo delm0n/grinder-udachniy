@@ -2,7 +2,7 @@
   <section id="comparison">
     <div
       :style="
-        'background: url(/new-site-vue/build//images/comparison/bg-4.' +
+        'background: url(new-site-vue/build//images/comparison/bg-4.' +
         getWebp +
         ');'
       "

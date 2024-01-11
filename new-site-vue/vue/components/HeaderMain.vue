@@ -74,7 +74,7 @@
               <picture>
                 <source
                   :srcset="
-                    '/new-site-vue/build/images/header/' +
+                    'new-site-vue/build/images/header/' +
                     getMainItem.img +
                     '.webp'
                   "
@@ -82,14 +82,14 @@
                   type="image/webp" />
                 <source
                   :srcset="
-                    '/new-site-vue/build/images/header/' +
+                    'new-site-vue/build/images/header/' +
                     getMainItem.img +
                     '.png'
                   "
                   media="(min-width: 577px)" />
                 <source
                   :srcset="
-                    '/new-site-vue/build/images/header/' +
+                    'new-site-vue/build/images/header/' +
                     getMainItem.img +
                     '@05x.webp'
                   "
@@ -97,7 +97,7 @@
 
                 <img
                   :src="
-                    '/new-site-vue/build/images/header/' +
+                    'new-site-vue/build/images/header/' +
                     getMainItem.img +
                     '@05x.png'
                   "

@@ -71,7 +71,7 @@ export default {
   },
   computed: {
     sorce() {
-      return "/new-site-vue/build/images/" + this.floder + "/" + this.imgName;
+      return "new-site-vue/build/images/" + this.floder + "/" + this.imgName;
     },
   },
 };
