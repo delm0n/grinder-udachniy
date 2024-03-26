@@ -230,6 +230,7 @@ export default {
 
     @media (max-width: 1366px) {
       gap: 0px;
+      flex-direction: row-reverse;
     }
 
     .phone-burger-group {
@@ -296,7 +297,8 @@ export default {
             }
           }
 
-          margin-left: 20px;
+          margin-right: 20px;
+          margin-left: 0;
           width: 225px;
           transition: width 0.3s, opacity 0.2s 0.1s;
           overflow: hidden;
@@ -308,7 +310,7 @@ export default {
         }
 
         @media (max-width: 768px) {
-          margin-left: 10px;
+          margin-right: 10px;
           width: 115px;
         }
         @media (max-width: 576px) {

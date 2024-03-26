@@ -35,7 +35,7 @@
                 :mobile="false"
                 :lazyLoad="false"
               />
-              <a download href="/uploadupdate/instruction.pdf">Инструкция</a>
+              <a href="">Инструкция</a>
             </li>
           </ul>
         </div>
